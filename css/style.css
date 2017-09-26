@@ -23,3 +23,18 @@ header img {
     right: -60%;
     height: 70%;
 }
+header nav {
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    font-size: 3rem;
+}
+header hgroup {
+    position: absolute;
+    top:15%;
+    left: 10%;
+}
+
+header h1 {
+    font-size: 4rem;
+}
