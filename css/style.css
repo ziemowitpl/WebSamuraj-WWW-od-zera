@@ -57,5 +57,13 @@ header h3 {
     border-radius: 50%;
     font-size: 4rem;
     text-align: center;
+}
 
+@media (orientation: portrait) {
+    h3 span::after {
+        content: '\A';
+        /*zrób enter*/
+        white-space: pre;
+        /*aby widać było enter*/
+    }
 }
