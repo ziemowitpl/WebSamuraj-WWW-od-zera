@@ -8,14 +8,21 @@ html {
 }
 header {
     height: 100vh;
+    width: 100%;
     background-color: #4D9B9C;
-    position: relative;
+    position: fixed;
+    top:0;
+    left:0;
     overflow-x: hidden;
     font-family: 'Oswald', sans-serif;
+    z-index: 1;
 }
 main {
     height: 100vh;
     background-color: grey;
+    margin-top: 100vh;
+    position: relative;
+    z-index: 2;
 }
 
 header img {
