@@ -78,6 +78,10 @@ header h3 {
     box-shadow: 0 0 5px 5px white;
 }
 
+.fa-angle-down {
+    animation: arrow 1.4s infinite linear;
+}
+
 @media (orientation: portrait) {
     h3 span::after {
         content: '\A';
@@ -92,4 +96,10 @@ header h3 {
         height: 80%;
         right:-11%;
     }
+}
+
+@keyframes arrow  {
+    0% {transform: translateY(-80px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(80px);}
 }
