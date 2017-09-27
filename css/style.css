@@ -76,6 +76,7 @@ header h3 {
     border-color: black;
     background-color: white;
     box-shadow: 0 0 5px 5px white;
+    cursor: pointer;
 }
 
 .fa-angle-down {
