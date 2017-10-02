@@ -82,7 +82,8 @@ header h3 {
 .fa-angle-down {
     animation: arrow 1.4s infinite linear;
 }
-
+/*--------koniec headera------*/
+/*MEDIA QUERIES*/
 @media (orientation: portrait) {
     h3 span::after {
         content: '\A';
@@ -92,6 +93,7 @@ header h3 {
     }
 }
 
+
 @media (orientation: landscape) {
     header img {
         height: 80%;
@@ -99,6 +101,29 @@ header h3 {
     }
 }
 
+@media (min-width: 530px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width:1280px) {
+
+}
+@media (min-width: 1600px) {
+
+}
+
+@media (max-width: 320px) {
+    header h3 {
+        font-size: 2.4rem;
+    }
+    header hgroup {
+        transform: rotate(-15deg);
+    }
+}
+
+/*ANIMACJE CSS*/
 @keyframes arrow  {
     0% {transform: translateY(-80px);}
     50% {transform: translateY(0);}
