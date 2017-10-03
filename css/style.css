@@ -80,7 +80,7 @@ header h3 {
 }
 
 .fa-angle-down {
-    animation: arrow 1.4s infinite linear;
+    animation: arrow 1s infinite linear;
 }
 /*--------koniec headera------*/
 /*MEDIA QUERIES*/
@@ -96,7 +96,7 @@ header h3 {
 
 @media (orientation: landscape) {
     header img {
-        height: 60%;
+        height: 75%;
         right: 0;
     }
 }
@@ -109,7 +109,7 @@ header h3 {
         font-size: 5rem;
     }
     header h3 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     header hgroup {
         top: 10%;
@@ -119,14 +119,31 @@ header h3 {
 @media (min-width: 530px) and (orientation: portrait) {}
 
 @media (min-width: 768px) {
-
+    header img {
+        height: 75%;
+        right: -10%;
+    }
+    header h1 {
+        font-size: 6rem;
+    }
+    header h3 {
+        font-size: 3rem;
+    }
+    header hgroup {
+        top: 12%;
+    }
+    #arrow {
+        width: 56px;
+        height:56px;
+        font-size: 4rem;
+    }
 
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
     header img {
         height: 75%;
-        right: -35%;
+        right: -30%;
     }
     header h1 {
         font-size: 8rem;
@@ -140,30 +157,93 @@ header h3 {
 }
 @media (min-width:1024px) {
     header img {
-        height: 85%;
-        right: -16%;
+        height: 75%;
+        right: -10%;
     }
     header h1 {
         font-size: 8rem;
     }
     header h3 {
-        font-size: 4.4rem;
+        font-size: 3.8rem;
     }
     header hgroup {
-        top: 8%;
+        top: 12%;
+    }
+    #arrow {
+        width: 96px;
+        height:96px;
+        font-size: 7rem;
     }
 
 }
 
-@media (min-width: 1280px) and (orientation: portrait) {}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+    header hgroup {
+        top:9%;
+        left: 10%;
+    }
+    header img {
+        height: 75%;
+        right: -20%;
+    }
+    header h1 {
+        font-size: 10rem;
+    }
+    header h3 {
+        font-size: 4.8rem;
+    }
+    #arrow {
+        width: 96px;
+        height:96px;
+        font-size: 7rem;
+    }
+}
 
 @media (min-width:1280px) {
+    header hgroup {
+        top:14%;
+        left: 10%;
+    }
+    header img {
+        height: 82%;
+        right: -10%;
+    }
+    header h1 {
+        font-size: 10rem;
+    }
+    header h3 {
+        font-size: 4.8rem;
+    }
+    #arrow {
+        width: 96px;
+        height:96px;
+        font-size: 8rem;
+    }
 
 }
 @media (min-width: 1280px) and (orientation: portrait) {}
 
 @media (min-width: 1600px) {
-
+    header hgroup {
+        top:14%;
+        left: 10%;
+    }
+    header img {
+        height: 92%;
+        right: 10%;
+    }
+    header h1 {
+        font-size: 10rem;
+    }
+    header h3 {
+        font-size: 4.8rem;
+    }
+    #arrow {
+        width: 63px;
+        height:63px;
+        font-size: 6rem;
+    }
 }
 @media (min-width: 1600px) and (orientation: portrait) {}
 
